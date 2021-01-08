@@ -1,9 +1,9 @@
 output "fargate_cluster_arn" {
-  value = aws_ecs_cluster.main.id
+  value = aws_ecs_cluster.paul-tf-ecs.id
 }
 
 output "fargate_cluster_name" {
-  value = aws_ecs_cluster.main.name
+  value = aws_ecs_cluster.paul-tf-ecs.name
 }
 
 output "fargate_execution_role" {

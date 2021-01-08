@@ -68,11 +68,11 @@ resource "aws_ecs_capacity_provider" "prov1" {
 }
 
 #----- ECS  Services--------
-module "hello_world" {
-  source = "./service-hello-world"
+# module "hello_world" {
+#   source = "./service-hello-world"
 
-  cluster_id = module.ecs.this_ecs_cluster_id
-}
+#   cluster_id = module.ecs.this_ecs_cluster_id
+# }
 
 #----- ECS  Resources--------
 

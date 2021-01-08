@@ -1,5 +1,5 @@
 locals {
-  name        = "complete-ecs"
+  name        = "paul-tf-ecs"
   environment = "dev"
 
   # This is the convention we use to know what belongs to each other
